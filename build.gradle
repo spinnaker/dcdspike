@@ -1,0 +1,28 @@
+buildscript {
+  repositories {
+    jcenter()
+    maven { url "http://spinnaker.bintray.com/gradle" }
+  }
+  dependencies {
+    classpath 'com.netflix.spinnaker.gradle:spinnaker-gradle-project:3.8.0'
+  }
+}
+
+
+group = "com.netflix.spinnaker.dcd"
+
+apply plugin: 'spinnaker.project'
+apply plugin: 'groovy'
+
+spinnaker {
+  dependenciesVersion = "0.53.0"
+}
+
+
+dependencies {
+  spinnaker.group('jackson')
+  spinnaker.group('test')
+}
+
+tasks.compileGroovy.enabled=false
+
