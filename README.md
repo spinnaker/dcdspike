@@ -1,9 +1,54 @@
-# NOTE
+# ARCHIVED / NO LONGER RELEVANT!
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+
+
+#  NOTE
 This is just a spike of some templating and binding, definitely not sold on the formats.
 
 # Declarative Continuous Delivery in Spinnaker
 
-see [Design Document](https://docs.google.com/a/netflix.com/document/d/1hoyLRYEEkTkOe0ViQD5wVW6tRGrDYUOjpi0p7onosOw/edit?usp=sharing)
 
 # example configuration for deployment targets and pipeline templates and pipeline bindings
 
